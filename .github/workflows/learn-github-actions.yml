@@ -12,7 +12,7 @@ jobs:
           host:${{secrets.SSH_HOST}}
           key: ${{secrets.SSH_KEY}}
           username: ${{secrets.SSH_USERNAME}}
-	  
+  
           script: |
            mkdir test #create folder you want to deploy to in the live server
            cd test #enter or cd into the folder
